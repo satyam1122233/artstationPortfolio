@@ -1,6 +1,6 @@
 import React from 'react'
 import ProfileNav from './profileNav'
-import bgVideo from '../Images/a.jpg'
+import bgVideo from '../Images/e6.mp4'
 
 
 function ProfileTopCard() {
@@ -9,7 +9,7 @@ function ProfileTopCard() {
 <div className='overflow-hidden w-[100%]' style={{height:'100vh'}}>
   {/* border:'2px solid' */}
        <div className='profile p-1 justify-center md:justify-start  flex
-       mb-2'>
+       mb-2 mx-1'>
 
 
 <ProfileNav/>
