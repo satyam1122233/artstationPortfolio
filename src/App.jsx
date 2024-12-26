@@ -14,29 +14,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <BrowserRouter>
-  
-
+    <BrowserRouter basename="/artstationPortfolio">  {/* Set the basename to the repository name */}
       <Routes>
-
-
-      <Route path="/" element={ 
-        <>
-        
-        <Navbar/> 
-        </>
-        } />
-
-      <Route path="/a" element={<PropsImageView />} />
- 
-      <Route path="/about" element={<About/>} />
-
-      
-   
-    </Routes>
-  </BrowserRouter>
-    </>
+        <Route path="/" element={<><Navbar /></>} />
+        <Route path="/a" element={<PropsImageView />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
