@@ -7,9 +7,9 @@ import PropsImageComp from './PropsImageComp'
 import userPic from '../Images/userPic.png'
 
 import e1 from '../Images/e1.mp4';
-import e2 from '../Images/a.jpg';
-import e3 from '../Images/a.jpg';
-import e4 from '../Images/a.jpg';
+import e2 from '../Images/e2.mp4';
+import e3 from '../Images/e3.mp4';
+import e4 from '../Images/e4.mp4';
 import e5 from '../Images/e5.mp4';
 import e6 from '../Images/e6.mp4';
 import e7 from '../Images/e7.mp4';
