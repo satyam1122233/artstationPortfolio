@@ -23,7 +23,7 @@ function Materials() {
   return (
     <div className='mainDiv justify-between flex flex-col md:flex-row w-full p-2 gap-4'>
   
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-right"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -32,7 +32,7 @@ function Materials() {
   </div>
 
 
-<div className='w-full m-auto'
+<div className='item w-full m-auto'
         data-aos="fadeIn"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -41,7 +41,7 @@ function Materials() {
 </div>
 
 
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-left"
         data-aos-offset="0"
         data-aos-delay="100">

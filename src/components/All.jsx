@@ -7,6 +7,9 @@ import PropsImageComp from './PropsImageComp';
 import './all.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Props from './Props';
+import Materials from './Materials';
+import Environment from './Environment';
 
 function All() {
     useEffect(() => {
@@ -18,57 +21,14 @@ function All() {
       
 
   return (
-    <div className="container  flex flex-col  w-full p-2 md:grid-cols-3 gap-4">
+    <div className="container  flex flex-col  w-full p-2  gap-4">
       {/* Item with left fade-in animation */}
-      <div
-        className="item leftAnim"
-        data-aos="fade-right"
-        data-aos-offset="0"
-        data-aos-delay="100"
-      >
-        <PropsImageComp img={[catVideo, catPic, catPic]} coverPic={shipVideo} path={'/img'} navigatePath={'/a'} />
-      </div>
+      
+      <Props/>
+      <Materials/>
+      <Environment/>
 
-      {/* Static Items */}
-      <div className="item"
-      data-aos="fadeIn"
-      data-aos-offset="0"
-      data-aos-delay="100"
-      >
-        <PropsImageComp img={[aPic, aPic, aPic]} coverPic={aPic} path={'/img'} navigatePath={'/a'} />
-      </div>
 
-      <div className="item" data-aos="fade-left"
-       data-aos-offset="0"
-       data-aos-delay="100"
-     >
-        <PropsImageComp img={[aPic, aPic, aPic]} coverPic={aPic} path={'/img'} navigatePath={'/a'} />
-      </div>
-
-      {/* Another item with left fade-in animation */}
-      <div
-        className="item leftAnim"
-        data-aos="fade-right"
-        data-aos-offset="0"
-        data-aos-delay="100"
-      >
-        <PropsImageComp img={[aPic, aPic, aPic]} coverPic={aPic} path={'/img'} navigatePath={'/a'} />
-      </div>
-
-      {/* Item with fade-up animation */}
-      <div
-        className="item"    data-aos="fadeIn"
-        data-aos-offset="0"
-        data-aos-delay="100"   >
-        <PropsImageComp img={[aPic, aPic, aPic]} coverPic={aPic} path={'/img'} navigatePath={'/a'} />
-      </div>
-
-      {/* Another static item */}
-      <div className="item" data-aos="fade-left"
-      data-aos-offset="0"
-      data-aos-delay="100" >
-        <PropsImageComp img={[aPic, aPic, aPic]} coverPic={aPic} path={'/img'} navigatePath={'/a'} />
-      </div>
     </div>
   );
 }

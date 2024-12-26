@@ -2,6 +2,7 @@ import React from 'react'
 import aPic from '../Images/a.jpg'
 import bPic from '../Images/b.jpg'
 import cPic from '../Images/c.jpg'
+import e6 from '../Images/e6.mp4'
 import PropsImageComp from './PropsImageComp'
 import userPic from '../Images/userPic.png'
 
@@ -22,16 +23,16 @@ function Props() {
   return (
     <div className='mainDiv justify-between flex flex-col md:flex-row w-full p-2 gap-4'>
   
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-right"
         data-aos-offset="0"
         data-aos-delay="100">
 
- <PropsImageComp img={[aPic,aPic,aPic]} coverPic={aPic} path={'/img'} navigatePath={'/a'} />
+ <PropsImageComp img={[e6]} coverPic={e6} path={'/img'} navigatePath={'/a'} />
   </div>
 
 
-<div className='w-full m-auto'
+<div className='item w-full m-auto'
         data-aos="fadeIn"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -40,7 +41,7 @@ function Props() {
 </div>
 
 
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-left"
         data-aos-offset="0"
         data-aos-delay="100">

@@ -7,10 +7,7 @@ import PropsImageComp from './PropsImageComp'
 import userPic from '../Images/userPic.png'
 
 import e1 from '../Images/e1.mp4';
-import e2 from '../Images/e2.mp4';
-import e3 from '../Images/e3.mp4';
 import e4 from '../Images/e4.mp4';
-import e5 from '../Images/e5.mp4';
 import e6 from '../Images/e6.mp4';
 import e7 from '../Images/e7.mp4';
 import e8 from '../Images/e8.mp4';
@@ -27,53 +24,45 @@ import 'aos/dist/aos.css';
 import './props.css'
 
 
+
 function All() {
-    useEffect(() => {
-        AOS.init({
-          duration: 500,
-          easing: 'linear',
-        });
-      }, []);
-}
+      useEffect(() => {
+          AOS.init({
+            duration: 15000,
+            easing: 'linear',
+          });
+        }, []);
+  }
 function Environment() {
+
+
+
   return (
     <div>
 
       
-      <div className='mainDiv justify-between flex flex-col md:grid md:grid-cols-3 w-full p-2 gap-4'>
+      <div className='mainDiv md:justify-between flex flex-col md:grid md:grid-cols-3 w-full p-2 gap-4'>
 
-
-
+          
   
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-right"
         data-aos-offset="0"
-        data-aos-delay="100">
-
+        data-aos-delay="100"
+        
+        >
  <PropsImageComp img={[e1]} coverPic={e1} path={'/img'} navigatePath={'/a'} />
   </div>
 
 
 
-  <div  className='w-full m-auto'
-        data-aos="fade-In"
-        data-aos-offset="0"
-        data-aos-delay="100">
-
- <PropsImageComp img={[e2]} coverPic={e2} path={'/img'} navigatePath={'/a'} />
-  </div>
 
 
-  <div  className='w-full m-auto'
-        data-aos="fade-left"
-        data-aos-offset="0"
-        data-aos-delay="100">
-
- <PropsImageComp img={[e3]} coverPic={e3} path={'/img'} navigatePath={'/a'} />
-  </div>
 
 
-  <div  className='w-full m-auto'
+
+
+  <div  className='item w-full m-auto'
         data-aos="fade-right"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -83,15 +72,8 @@ function Environment() {
  
  
  
-  <div  className='w-full m-auto'
-        data-aos="fade-In"
-        data-aos-offset="0"
-        data-aos-delay="100">
- <PropsImageComp img={[e5]} coverPic={e5} path={'/img'} navigatePath={'/a'} />
-  </div>
  
- 
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-left"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -99,7 +81,7 @@ function Environment() {
   </div>
  
  
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-right"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -107,7 +89,7 @@ function Environment() {
   </div>
  
  
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-In"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -115,7 +97,7 @@ function Environment() {
   </div>
  
  
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-left"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -123,7 +105,7 @@ function Environment() {
   </div>
  
  
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-right"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -131,7 +113,7 @@ function Environment() {
   </div>
  
  
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-In"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -139,7 +121,7 @@ function Environment() {
   </div>
  
  
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-left"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -147,14 +129,14 @@ function Environment() {
   </div>
  
  
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-right"
         data-aos-offset="0"
         data-aos-delay="100">
  <PropsImageComp img={[e13]} coverPic={e13} path={'/img'} navigatePath={'/a'} />
   </div>
  
-  <div  className='w-full m-auto'
+  <div  className='item w-full m-auto'
         data-aos="fade-In"
         data-aos-offset="0"
         data-aos-delay="100">
@@ -163,12 +145,7 @@ function Environment() {
 
 
 
-  <div  className='w-full m-auto'
-        data-aos="fade-left"
-        data-aos-offset="0"
-        data-aos-delay="100">
- <PropsImageComp img={[e7]} coverPic={e6} path={'/img'} navigatePath={'/a'} />
-  </div>
+ 
 
 
 

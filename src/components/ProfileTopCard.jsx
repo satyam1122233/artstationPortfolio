@@ -29,7 +29,20 @@ function ProfileTopCard() {
 
 
 </div> */}
-<div className='bgNAv '>
+<div className='bgNAv' style={{backgroundColor:'#0000009c'}}>
+
+<div className="bgTxt flex w-full h-full flex-col text-center justify-start md:justify-center" style={{color:'white', backgroundColor:'transparent', position:'absolute',
+      padding: '30px',
+    textAlign: 'center',  } }>
+<span className='font-extrabold text-2xl md:text-3xl'>Welcome to the <br /> hub for <span className='p-0.5 rounded-lg text-orange-500' style={{boxShadow:'0 0 4px white'}}>3D</span> <br />concept artists</span>
+<br />
+<span className='text-lg md:text-xl '>
+<span className='p-0.5 rounded-lg mr-1 text-orange-500' style={{boxShadow:'0 0 4px white'}}>
+Specialised training </span>
+to help you <br />materialise your ideas and take <br /> your creations to the next level!
+</span>
+</div>
+
     <video className='bgNAvVideo' src={bgVideo}  loop 
           muted autoPlay >
     </video>
