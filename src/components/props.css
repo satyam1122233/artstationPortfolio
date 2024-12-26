@@ -21,9 +21,9 @@ height: 70vh;
   
   .innerImg{
 
-    padding: 10px;
+    padding: 2px;
     margin-bottom: 20px;
-    box-shadow: 0 3px 6px 2px skyblue;
+    box-shadow: 0 0 4px 1px white;
     border-radius: 10px;
 
 }

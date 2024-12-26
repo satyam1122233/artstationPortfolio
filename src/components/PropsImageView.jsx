@@ -21,18 +21,18 @@ function PropsImageView() {
 
           
           <div key={index}
-            className="innerImg cursor-pointer m-auto transition-all duration-[0.3s] ease-linear w-[60%] h-[600px]"
+            className="innerImg cursor-pointer m-auto transition-all duration-[0.3s] ease-linear w-[60%] md:h-fit  h-[450px] overflow-hidden"
             
           >
             <div className="img w-full">
               {isVideo?(
                  <video
+                 style={{objectFit:'fill'}}
                  className="w-full h-[90vh]"
                  controls
                  autoPlay
                  loop
                  muted
-                 preload
                  src={img}
                  alt=""
                />

@@ -3,6 +3,12 @@ import aPic from '../Images/a.jpg'
 import bPic from '../Images/b.jpg'
 import cPic from '../Images/c.jpg'
 import e6 from '../Images/e6.mp4'
+import p1 from '../Images/p1.mp4'
+import p2 from '../Images/p2.mp4'
+import p3 from '../Images/p3.mp4'
+import pp1 from '../Images/p1.png'
+import pp2 from '../Images/p2.png'
+import pp3 from '../Images/p3.png'
 import PropsImageComp from './PropsImageComp'
 import userPic from '../Images/userPic.png'
 
@@ -37,17 +43,11 @@ function Props() {
         data-aos-offset="0"
         data-aos-delay="100">
 
-  <PropsImageComp coverPic={bPic} img={[bPic,bPic,bPic]} path={'/img'} navigatePath={'/a'} />
+  <PropsImageComp coverPic={p1} img={[p2,p3,pp1,pp2,pp3]} path={'/img'} navigatePath={'/a'} />
 </div>
 
 
-  <div  className='item w-full m-auto'
-        data-aos="fade-left"
-        data-aos-offset="0"
-        data-aos-delay="100">
 
- <PropsImageComp coverPic={cPic} img={[cPic,cPic,cPic]} path={'/img'} navigatePath={'/a'} />
-  </div>
 
   </div>
     
