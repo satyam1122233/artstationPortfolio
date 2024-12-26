@@ -11,7 +11,7 @@ import e2 from '../Images/a.jpg';
 import e3 from '../Images/a.jpg';
 import e4 from '../Images/a.jpg';
 import e5 from '../Images/a.jpg';
-import e6 from '../Images/a.jpg';
+import e6 from '../Images/e6.mp4';
 import e7 from '../Images/a.jpg';
 import e8 from '../Images/a.jpg';
 import e9 from '../Images/a.jpg';

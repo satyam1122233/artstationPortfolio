@@ -38,7 +38,7 @@ navigate(props.navigatePath,{state:props.img?props.img:''})
         (
           <video  src={props.coverPic} 
           className="w-full h-full object-cover" loop 
-          muted autoPlay ></video>
+          muted autoPlay style={{objectFit:'fill'}} ></video>
         )
       :(
       <div  style={{backgroundImage:`url(${props.coverPic})`,backgroundSize:'cover',backgroundRepeat:'no-repeat', backgroundPosition:'center', width: '100%',
