@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import aPic from '../Images/a.jpg';
 import catPic from '../Images/allcat.jpg';
-import catVideo from '../Images/allcat.jpg';
-import shipVideo from '../Images/allcat.jpg';
+import catVideo from '../Images/e7.mp4';
+import shipVideo from '../Images/e6.mp4';
 import PropsImageComp from './PropsImageComp';
 import './all.css';
 import AOS from 'aos';

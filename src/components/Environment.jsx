@@ -6,20 +6,20 @@ import cPic from '../Images/c.jpg'
 import PropsImageComp from './PropsImageComp'
 import userPic from '../Images/userPic.png'
 
-import e1 from '../Images/a.jpg';
+import e1 from '../Images/e1.mp4';
 import e2 from '../Images/a.jpg';
 import e3 from '../Images/a.jpg';
 import e4 from '../Images/a.jpg';
-import e5 from '../Images/a.jpg';
+import e5 from '../Images/e5.mp4';
 import e6 from '../Images/e6.mp4';
-import e7 from '../Images/a.jpg';
-import e8 from '../Images/a.jpg';
-import e9 from '../Images/a.jpg';
-import e10 from '../Images/a.jpg';
-import e11 from '../Images/a.jpg';
-import e12 from '../Images/a.jpg';
-import e13 from '../Images/a.jpg';
-import e14 from '../Images/a.jpg';
+import e7 from '../Images/e7.mp4';
+import e8 from '../Images/e8.mp4';
+import e9 from '../Images/e9.mp4';
+import e10 from '../Images/e10.mp4';
+import e11 from '../Images/e11.mp4';
+import e12 from '../Images/e12.mp4';
+import e13 from '../Images/e13.mp4';
+import e14 from '../Images/e14.mp4';
 
 
 import AOS from 'aos';
