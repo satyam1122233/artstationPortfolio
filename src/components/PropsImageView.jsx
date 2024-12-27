@@ -21,14 +21,14 @@ function PropsImageView() {
 
           
           <div key={index}
-            className="innerImg cursor-pointer m-auto transition-all duration-[0.3s] ease-linear w-auto h-auto overflow-hidden"
+            className="innerImg cursor-pointer m-auto transition-all duration-[0.3s] ease-linear w-auto h-auto "
             
           >
-            <div className="img w-full">
+            <div className="img w-fit m-auto shadow-[0_4px_0px_2px_snow] ">
               {isVideo?(
                  <video
                  style={{objectFit:'fill'}}
-                 className="w-auto h-auto md:h-[96vh] m-auto shadow-xl shadow-white rounded-xl"
+                 className="w-auto h-auto md:h-[96vh] m-auto  rounded-xl"
                  controls
                  autoPlay
                  loop
@@ -38,7 +38,7 @@ function PropsImageView() {
                />
               ):(
 
-                    <img className='w-auto h-auto md:h-[96vh] m-auto shadow-xl shadow-white rounded-xl' src={img} alt=""                 style={{objectFit:'fill'}}
+                    <img className='w-auto h-auto md:h-[96vh] m-auto rounded-xl' src={img} alt=""                 style={{objectFit:'fill'}}
                     />
 
               )}
