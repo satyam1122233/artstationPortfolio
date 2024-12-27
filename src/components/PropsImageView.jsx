@@ -21,7 +21,7 @@ function PropsImageView() {
 
           
           <div key={index}
-            className="innerImg cursor-pointer m-auto transition-all duration-[0.3s] ease-linear w-[60%] md:h-fit  h-[450px] overflow-hidden"
+            className="innerImg cursor-pointer m-auto transition-all duration-[0.3s] ease-linear w-[100%] md:h-fit  h-[90vh] overflow-hidden"
             
           >
             <div className="img w-full">
