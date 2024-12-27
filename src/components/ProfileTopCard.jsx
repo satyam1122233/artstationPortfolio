@@ -31,7 +31,7 @@ function ProfileTopCard() {
 </div> */}
 <div className='bgNAv' style={{backgroundColor:'#0000009c'}}>
 
-<div className="bgTxt flex w-full h-[70%] flex-col text-center justify-center" style={{color:'white', backgroundColor:'transparent', position:'absolute',
+<div className="bgTxt flex w-[94%] h-[70%] flex-col text-center justify-center" style={{color:'white', backgroundColor:'transparent', position:'absolute',
       padding: '30px',
     textAlign: 'center' } }>
 <span className='font-extrabold text-2xl md:text-3xl'>Welcome to the <br /> hub for <span className='p-0.5 rounded-lg text-orange-500' style={{boxShadow:'0 0 4px white'}}>3D</span> <br />concept artists</span>
