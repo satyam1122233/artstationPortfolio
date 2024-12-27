@@ -30,7 +30,7 @@ navigate(props.navigatePath,{state:props.img?props.img:''})
   return (
     <>
 
-    <div onMouseEnter={handleHover} onMouseLeave={handleHover} className='mainProDiv flex overflow-hidden h-[55vh] md:h-[70vh]
+    <div onMouseEnter={handleHover} onMouseLeave={handleHover} className='mainProDiv flex overflow-hidden h-[50vh] md:h-[70vh]
 '>
 
        <div onClick={handleClick} className='image cursor-pointer opacity-1 hover:opacity-80 m-auto  transition-all duration-[0.3s] ease-linear w-full h-full'
