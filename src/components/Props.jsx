@@ -28,8 +28,10 @@ function Props() {
   
   <div  className='item w-full m-auto'
         data-aos="fade-right"
-        data-aos-offset="0"
-        data-aos-delay="100">
+        data-aos-delay="50"
+        data-aos-duration="800"
+        data-aos-offset="100"
+        data-aos-mirror="true">
 
  <PropsImageComp img={[e6]} coverPic={e6} path={'/img'} navigatePath={'/a'} />
   </div>
@@ -37,8 +39,10 @@ function Props() {
 
 <div className='item w-full m-auto'
         data-aos="fadeIn"
-        data-aos-offset="0"
-        data-aos-delay="100">
+        data-aos-delay="50"
+        data-aos-duration="800"
+        data-aos-offset="100"
+        data-aos-mirror="true">
 
   <PropsImageComp coverPic={p1} img={[p2,p3,pp1,pp2,pp3]} path={'/img'} navigatePath={'/a'} />
 </div>

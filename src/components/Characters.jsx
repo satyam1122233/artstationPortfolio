@@ -50,9 +50,11 @@ function Characters() {
               key={index}
               className="item w-full m-auto"
               data-aos={item.dataAos}
-              data-aos-offset="0"
-              data-aos-delay="100"
-            >
+              data-aos-delay="50"
+              data-aos-duration="800"
+              data-aos-offset="100"
+              data-aos-mirror="true"
+                       >
               <PropsImageComp
                 img={item.img}
                 coverPic={item.coverPic}
