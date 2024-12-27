@@ -8,4 +8,5 @@ export default defineConfig({
   build: {
     outDir: 'build',  // This will change the output directory to 'build'
   },
+   assetsInclude: ['**/*.PNG'], // Include PNG files as assets
 })

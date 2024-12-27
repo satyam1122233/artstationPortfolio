@@ -15,6 +15,7 @@ import './navbar.css'
 import ProfileTopCard from './ProfileTopCard'
 import Materials from './Materials'
 import Environment from './Environment'
+import Characters from './Characters'
 
 
 function Navbar() {
@@ -26,7 +27,9 @@ function Navbar() {
         {id:2, name:"Props" }
         ,
         {id:3, name:"Materials" },
-        {id:4, name:"Environment" }
+        {id:4, name:"Environment" },
+        {id:5, name:"Characters" }
+
 
     ]
 
@@ -88,6 +91,7 @@ function Navbar() {
 
 {currentIten===3? <Materials/>:''}
 {currentIten===4? <Environment/>:''}
+{currentIten===5? <Characters/>:''}
 
 
    

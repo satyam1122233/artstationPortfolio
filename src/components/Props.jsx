@@ -1,7 +1,4 @@
 import React from 'react'
-import aPic from '../Images/a.jpg'
-import bPic from '../Images/b.jpg'
-import cPic from '../Images/c.jpg'
 import e6 from '../Images/e6.mp4'
 import p1 from '../Images/p1.mp4'
 import p2 from '../Images/p2.mp4'
