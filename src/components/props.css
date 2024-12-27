@@ -11,10 +11,11 @@
 .mainProDiv {
     position: relative;
     display: flex;
-    box-shadow: 0 4px 6px 1px white;
+    box-shadow: -2px -2px 0px 2px white;
     margin: 10px;
 border-radius: 10px;
 width: 100%;
+overflow: hidden;
 
   }
   

@@ -30,22 +30,24 @@ navigate(props.navigatePath,{state:props.img?props.img:''})
   return (
     <>
 
-    <div onMouseEnter={handleHover} onMouseLeave={handleHover} className='mainProDiv flex overflow-hidden h-[35vh] md:h-[70vh]
+    <div onMouseEnter={handleHover} onMouseLeave={handleHover} className='mainProDiv flex w-full  h-auto md:h-[70vh]
 '>
 
-       <div onClick={handleClick} className='image cursor-pointer opacity-1 hover:opacity-80 m-auto  transition-all duration-[0.3s] ease-linear w-full h-full'
+       <div onClick={handleClick} className='image cursor-pointer opacity-1 hover:opacity-80 m-auto  transition-all duration-[0.3s] ease-linear w-full h-auto'
        >
         {isVideo?
         (
           <video  src={props.coverPic} 
-          className="w-full h-full object-cover" loop 
+          className="w-full h-full" loop 
           muted autoPlay style={{objectFit:'fill'}} ></video>
         )
       :(
-      <div  style={{backgroundImage:`url(${props.coverPic})`,backgroundSize:'cover',backgroundRepeat:'no-repeat', backgroundPosition:'center', width: '100%',
-      height: '100%'}}>
-
-      </div>)
+     
+        <img
+        className="w-full h-full object-fill"
+        src={props.coverPic}
+      />
+      )
       }
     
         <div className='pfOnImg'><ProfileNav/>

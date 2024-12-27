@@ -21,7 +21,8 @@ function All() {
 
 function Materials() {
   return (
-    <div className='mainDiv justify-between flex flex-col md:flex-row w-full p-2 gap-4'>
+    <div className='mainDiv md:justify-between flex flex-col md:grid md:grid-cols-3 w-full p-2 gap-4'>
+      
   
   <div  className='item w-full m-auto'
         data-aos="fade-right"

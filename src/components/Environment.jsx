@@ -58,12 +58,6 @@ function Environment() {
 
 
 
-
-
-
-
-
-
   <div  className='item w-full m-auto'
         data-aos="fade-In"
         data-aos-delay="50"
