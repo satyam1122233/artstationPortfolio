@@ -10,8 +10,8 @@ function ProfileNav() {
               <img src={profilePic} alt="" />
         </div>
         <div className="pfTxt">
-             <h1 className='font-bold'>Name of Person</h1>
-             <p>Real Artist</p>
+             <h1 className='font-bold'>Keshav joshi</h1>
+             <p>Sr.Unreal Artist</p>
 
         </div>
         </div>

@@ -35,12 +35,12 @@ navigate(props.navigatePath,{state:props.imgTxtArr?props.imgTxtArr:[]})
     <div onMouseEnter={handleHover} onMouseLeave={handleHover} className='mainProDiv flex w-full  h-auto  flex-col
 '>
 
-       <div style={{backgroundColor:'black'}} onClick={handleClick} className='image cursor-pointer opacity-1 hover:opacity-80 m-auto  transition-all duration-[0.3s] ease-linear w-full h-auto'
+       <div style={{backgroundColor:'black'}}  className='image cursor-pointer opacity-1 hover:opacity-80 m-auto  transition-all duration-[0.3s] ease-linear w-full h-auto'
        >
         {isVideo?
         (
           <>
-          <video  src={props.coverPic} 
+          <video onClick={handleClick}  src={props.coverPic} 
           className="w-full h-full" loop 
           muted autoPlay style={{objectFit:'fill'}} ></video>
 

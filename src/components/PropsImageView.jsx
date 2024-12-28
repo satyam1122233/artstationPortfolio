@@ -29,7 +29,7 @@ function PropsImageView() {
             
           >
             
-            <div className='mainProDiv w-full  h-auto  '>
+            <div className='mainProDiv w-full  h-auto bg-black  flex flex-col md:flex-row md:justify-center'>
               {isVideo?(
 
 
@@ -48,7 +48,7 @@ function PropsImageView() {
                  
                  
                  <div className='p-[30px]' style={{lineHeight:'1.6',display:'flex',flexDirection:'column',justifyContent:'center'}}>
-                   <h4 className=' font-extrabold text-orange-500 shadow-sm shadow-white p-2 rounded-lg' style={{fontSize:'24px',fontWeight:'700'}}>{item.txtHdng}</h4>
+                   <h4 className=' font-extrabold text-orange-500 shadow-[0_2px_4px_1px_white] shadow-white p-2 rounded-lg' style={{fontSize:'24px',fontWeight:'700'}}>{item.txtHdng}</h4>
                    <p className='p-2 ' style={{fontSize:'16px'}}>{item.txtDesc}</p>
                    
                  </div> 
@@ -61,7 +61,7 @@ function PropsImageView() {
                     />
 
                   <div className='p-[30px] ' style={{lineHeight:'1.6',display:'flex',flexDirection:'column',justifyContent:'center'}}>
-                   <h4 className=' font-extrabold text-orange-500 shadow-sm shadow-white p-2 rounded-lg' style={{fontSize:'24px',fontWeight:'700'}}>{item.txtHdng}</h4>
+                   <h4 className=' font-extrabold text-orange-500 shadow-[0_2px_4px_1px_white] shadow-white p-2 rounded-lg' style={{fontSize:'24px',fontWeight:'700'}}>{item.txtHdng}</h4>
                    <p className='p-2 ' style={{fontSize:'16px'}}>{item.txtDesc}</p>
                    
                  </div> 
