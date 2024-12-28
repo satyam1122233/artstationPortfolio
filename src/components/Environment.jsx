@@ -53,7 +53,11 @@ function Environment() {
         data-aos-mirror="true"
         
         >
- <PropsImageComp img={[e1]} coverPic={e1} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e1,txtHdng:"headingpp3",txtDesc:"Description"}
+
+   ]}   coverPic={e1} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
 
 
@@ -66,7 +70,10 @@ function Environment() {
         data-aos-mirror="true"
         >
 
- <PropsImageComp img={[e4]} coverPic={e4} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e4,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}   coverPic={e4} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
  
@@ -78,7 +85,11 @@ function Environment() {
         data-aos-duration="800"
         data-aos-offset="100"
         data-aos-mirror="true">
- <PropsImageComp img={[e6]} coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e6,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}  
+    coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
  
@@ -88,7 +99,11 @@ function Environment() {
         data-aos-duration="800"
         data-aos-offset="100"
         data-aos-mirror="true">
- <PropsImageComp img={[e7]} coverPic={e7} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e7,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}  
+   coverPic={e7} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
  
@@ -98,7 +113,11 @@ function Environment() {
         data-aos-duration="800"
         data-aos-offset="100"
         data-aos-mirror="true">
- <PropsImageComp img={[e8]} coverPic={e8} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e8,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}  
+    coverPic={e8} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
  
@@ -108,7 +127,11 @@ function Environment() {
         data-aos-duration="800"
         data-aos-offset="100"
         data-aos-mirror="true">
- <PropsImageComp img={[e9]} coverPic={e9} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e9,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}  
+    coverPic={e9} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
  
@@ -118,7 +141,10 @@ function Environment() {
         data-aos-duration="800"
         data-aos-offset="100"
         data-aos-mirror="true">
- <PropsImageComp img={[e10]} coverPic={e10} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e10,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}   coverPic={e10} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
  
@@ -128,7 +154,10 @@ function Environment() {
         data-aos-duration="800"
         data-aos-offset="100"
         data-aos-mirror="true">
- <PropsImageComp img={[e11]} coverPic={e11} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e11,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}   coverPic={e11} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
  
@@ -138,7 +167,11 @@ function Environment() {
         data-aos-duration="800"
         data-aos-offset="100"
         data-aos-mirror="true">
- <PropsImageComp img={[e12]} coverPic={e12} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e12,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}  
+    coverPic={e12} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
  
@@ -148,7 +181,11 @@ function Environment() {
         data-aos-duration="800"
         data-aos-offset="100"
         data-aos-mirror="true">
- <PropsImageComp img={[e13]} coverPic={e13} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e13,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}  
+    coverPic={e13} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
  
   <div  className='item w-full m-auto'
@@ -157,7 +194,11 @@ function Environment() {
               data-aos-duration="800"
               data-aos-offset="100"
               data-aos-mirror="true">
- <PropsImageComp img={[e14]} coverPic={e14} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+    
+     {img:e14,txtHdng:"headingpp3",txtDesc:"Description"}
+   ]}  
+    coverPic={e14} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
 
 

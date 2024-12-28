@@ -34,7 +34,11 @@ function Props() {
         data-aos-offset="100"
         data-aos-mirror="true">
 
- <PropsImageComp img={[e6]} coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+ <PropsImageComp imgTxtArr={[
+   
+    {img:e6,txtHdng:"The Ultimate ZBrush Guide course",txtDesc:"The new and improved step-by-step program to turn your ZBrush sculpture into a polished illustration!"}
+  ]}  
+   coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
 
 
@@ -45,7 +49,14 @@ function Props() {
         data-aos-offset="100"
         data-aos-mirror="true">
 
-  <PropsImageComp coverPic={p1} img={[p2,p3,pp1,pp2,pp3]} path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+  <PropsImageComp coverPic={p1} imgTxtArr={[
+    {img:p2,txtHdng:"heading2",txtDesc:"Description2"},
+    {img:p3,txtHdng:"headingp3",txtDesc:"Description"},
+    {img:pp1,txtHdng:"headingpp1",txtDesc:"Description"},
+    {img:pp2,txtHdng:"headingpp2",txtDesc:"Description"},
+    {img:pp3,txtHdng:"headingpp3",txtDesc:"Description"}
+  ]}  
+  path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
 </div>
 
 

@@ -57,7 +57,27 @@ function Characters() {
               data-aos-mirror="true"
                        >
               <PropsImageComp
-                img={[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18]}
+                imgTxtArr={[
+                   
+                    {img:c1,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c2,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c3,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c4,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c5,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c6,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c7,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c8,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c9,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c10,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c11,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c12,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c13,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c14,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c15,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c16,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c17,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c18,txtHdng:"headingpp3",txtDesc:"Description"},
+                  ]}  
                 coverPic={item.coverPic}
                 path={item.path}
                 navigatePath={item.navigatePath}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."

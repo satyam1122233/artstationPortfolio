@@ -15,8 +15,10 @@ const navigate=useNavigate();
 
 function handleClick(){
 
+//navigate to inner image/video part
+console.log(props.imgTxtArr);
 
-navigate(props.navigatePath,{state:props.img?props.img:''})
+navigate(props.navigatePath,{state:props.imgTxtArr?props.imgTxtArr:[]})
 }
 
 
