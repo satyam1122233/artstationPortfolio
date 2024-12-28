@@ -24,7 +24,7 @@ function PropsImageView() {
             className="innerImg cursor-pointer m-auto transition-all duration-[0.3s] ease-linear w-auto h-auto "
             
           >
-            <div className="img w-fit m-auto shadow-[0_4px_0px_2px_snow] ">
+            <div className="img w-fit m-auto ">
               {isVideo?(
                  <video
                  style={{objectFit:'fill'}}

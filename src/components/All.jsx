@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import Props from './Props';
 import Materials from './Materials';
 import Environment from './Environment';
+import Characters from './Characters';
 
 function All() {
     useEffect(() => {
@@ -27,7 +28,7 @@ function All() {
       <Props/>
       <Materials/>
       <Environment/>
-
+      <Characters/>
 
     </div>
   );

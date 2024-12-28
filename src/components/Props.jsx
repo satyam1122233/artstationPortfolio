@@ -24,7 +24,8 @@ function All() {
 
 function Props() {
   return (
-    <div className='mainDiv justify-between flex flex-col md:flex-row w-full p-2 gap-4'>
+    <div className='mainDiv md:justify-between flex flex-col md:grid md:grid-cols-3 w-full p-2 gap-4'>
+      
   
   <div  className='item w-full m-auto'
         data-aos="fade-right"
@@ -33,7 +34,7 @@ function Props() {
         data-aos-offset="100"
         data-aos-mirror="true">
 
- <PropsImageComp img={[e6]} coverPic={e6} path={'/img'} navigatePath={'/a'} />
+ <PropsImageComp img={[e6]} coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
   </div>
 
 
@@ -44,7 +45,7 @@ function Props() {
         data-aos-offset="100"
         data-aos-mirror="true">
 
-  <PropsImageComp coverPic={p1} img={[p2,p3,pp1,pp2,pp3]} path={'/img'} navigatePath={'/a'} />
+  <PropsImageComp coverPic={p1} img={[p2,p3,pp1,pp2,pp3]} path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
 </div>
 
 

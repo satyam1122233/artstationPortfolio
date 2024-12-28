@@ -30,29 +30,50 @@ navigate(props.navigatePath,{state:props.img?props.img:''})
   return (
     <>
 
-    <div onMouseEnter={handleHover} onMouseLeave={handleHover} className='mainProDiv flex w-full  h-auto md:h-[70vh]
+    <div onMouseEnter={handleHover} onMouseLeave={handleHover} className='mainProDiv flex w-full  h-auto  flex-col
 '>
 
-       <div onClick={handleClick} className='image cursor-pointer opacity-1 hover:opacity-80 m-auto  transition-all duration-[0.3s] ease-linear w-full h-auto'
+       <div style={{backgroundColor:'black'}} onClick={handleClick} className='image cursor-pointer opacity-1 hover:opacity-80 m-auto  transition-all duration-[0.3s] ease-linear w-full h-auto'
        >
         {isVideo?
         (
+          <>
           <video  src={props.coverPic} 
           className="w-full h-full" loop 
           muted autoPlay style={{objectFit:'fill'}} ></video>
+
+
+<div className='p-[30px]' style={{lineHeight:'1.6'}}>
+  <h4 className=' font-extrabold' style={{fontSize:'24px',fontWeight:'700'}}>{props.titleTxt}</h4>
+  <p className=' ' style={{fontSize:'16px'}}>{props.descriptionTxt}</p>
+  
+</div>         
+ </>
         )
       :(
-     
+     <>
         <img
         className="w-full h-full object-fill"
         src={props.coverPic}
-      />
+        />
+       
+       
+       <div className='p-[30px]' style={{lineHeight:'1.6'}}>
+  <h4 className=' font-extrabold' style={{fontSize:'24px',fontWeight:'700'}}>{props.titleTxt}</h4>
+  <p className=' ' style={{fontSize:'16px'}}>{props.descriptionTxt}</p>
+  
+</div> 
+
+        </>
       )
       }
     
         <div className='pfOnImg'><ProfileNav/>
       </div>
   </div>
+
+
+
 
 
     </div>

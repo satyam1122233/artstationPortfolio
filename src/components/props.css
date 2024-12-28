@@ -1,19 +1,19 @@
 .pfOnImg {
     position: relative; /* Make sure it's positioned relative to its parent container */
     background-color: transparent;
-     top: -60px;
+     top: -15px;
     left:-100%; /* Start completely off-screen to the left */
     transition: all 0.3s linear; /* Smooth transition when hovering */
 }
 .mainProDiv:hover .pfOnImg{
-    left: 1%; 
+    left: 2%; 
 }
 .mainProDiv {
     position: relative;
     display: flex;
-    box-shadow: -2px -2px 0px 2px white;
+    box-shadow: 0px 5px 2px 1px white;
     margin: 10px;
-border-radius: 10px;
+border-radius: 20px;
 width: 100%;
 overflow: hidden;
 

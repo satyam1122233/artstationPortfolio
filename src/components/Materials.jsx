@@ -31,7 +31,7 @@ function Materials() {
         data-aos-offset="100"
         data-aos-mirror="true">
 
- <PropsImageComp img={[aPic,aPic,aPic]} coverPic={aPic} path={'/img'} navigatePath={'/a'} />
+ <PropsImageComp img={[aPic,aPic,aPic]} coverPic={aPic} path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
   </div>
 
 
@@ -42,7 +42,7 @@ function Materials() {
         data-aos-offset="100"
         data-aos-mirror="true">
 
-  <PropsImageComp coverPic={bPic} img={[bPic,bPic,bPic]} path={'/img'} navigatePath={'/a'} />
+  <PropsImageComp coverPic={bPic} img={[bPic,bPic,bPic]} path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
 </div>
 
 
@@ -53,7 +53,7 @@ function Materials() {
         data-aos-offset="100"
         data-aos-mirror="true">
 
- <PropsImageComp coverPic={cPic} img={[cPic,cPic,cPic]} path={'/img'} navigatePath={'/a'} />
+ <PropsImageComp coverPic={cPic} img={[cPic,cPic,cPic]} path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
   </div>
 
   </div>

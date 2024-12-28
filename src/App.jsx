@@ -5,10 +5,10 @@ import './App.css'
 import Navbar from './components/Navbar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'; // Use react-router-dom instead of react-router
 import PropsImageComp from './components/PropsImageComp'
-import PropsImageView from './components/propsImageView'
 import Props from './components/Props'
 import About from './components/About'
 import ProfileTopCard from './components/ProfileTopCard'
+import PropsImageView from './components/PropsImageView'
 
 function App() {
   const [count, setCount] = useState(0)

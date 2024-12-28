@@ -21,24 +21,24 @@ import c18 from '../Images/c18.png';
 
 function Characters() {
   const characterImgs = [
-    { img: [c1], coverPic: c1, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    { img: [c2], coverPic: c2, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    { img: [c3], coverPic: c3, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
+    // { img: [c1], coverPic: c1, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
+    // { img: [c2], coverPic: c2, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
+    // { img: [c3], coverPic: c3, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
     { img: [c4], coverPic: c4, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    { img: [c5], coverPic: c5, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    { img: [c6], coverPic: c6, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
-    { img: [c7], coverPic: c7, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    { img: [c8], coverPic: c8, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    { img: [c9], coverPic: c9, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
-    { img: [c10], coverPic: c10, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    { img: [c11], coverPic: c11, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    { img: [c12], coverPic: c12, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
-    { img: [c13], coverPic: c13, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    { img: [c14], coverPic: c14, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    { img: [c15], coverPic: c15, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
-    { img: [c16], coverPic: c16, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    { img: [c17], coverPic: c17, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    { img: [c18], coverPic: c18, path: '/img', navigatePath: '/a', dataAos: 'fade-left' }
+    // { img: [c5], coverPic: c5, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
+    // { img: [c6], coverPic: c6, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
+    // { img: [c7], coverPic: c7, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
+    // { img: [c8], coverPic: c8, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
+    // { img: [c9], coverPic: c9, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
+    // { img: [c10], coverPic: c10, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
+    // { img: [c11], coverPic: c11, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
+    // { img: [c12], coverPic: c12, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
+    // { img: [c13], coverPic: c13, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
+    // { img: [c14], coverPic: c14, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
+    // { img: [c15], coverPic: c15, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
+    // { img: [c16], coverPic: c16, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
+    // { img: [c17], coverPic: c17, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
+    // { img: [c18], coverPic: c18, path: '/img', navigatePath: '/a', dataAos: 'fade-left' }
   ];
 
   return (
@@ -57,10 +57,10 @@ function Characters() {
               data-aos-mirror="true"
                        >
               <PropsImageComp
-                img={item.img}
+                img={[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18]}
                 coverPic={item.coverPic}
                 path={item.path}
-                navigatePath={item.navigatePath}
+                navigatePath={item.navigatePath}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."
               />
             </div>
           );
