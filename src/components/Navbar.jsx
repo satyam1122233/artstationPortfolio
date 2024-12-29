@@ -30,7 +30,6 @@ function Navbar() {
         {id:4, name:"Environment" },
         {id:5, name:"Characters" }
 
-
     ]
 
     function handleCurrItem(id){
@@ -61,12 +60,11 @@ function Navbar() {
 
     <div className='proContainer' >
       
-     
-      
       <h1 className='text-white font-bold text-xl md:text-2xl my-2'>Portfolio</h1>
 
 <div className="navBar flex fle gap-4 md:gap-5 text-md md:text-lg overflow-scroll no-scrollbar">
 
+{/* handle navbar all,props,materials,environment,characters frangments */}
     {navItems.map(item=>{
         return(
         <ul key={item.id}

@@ -9,7 +9,7 @@ function ProfileTopCard() {
 <div className='overflow-hidden w-[100%]' style={{height:'100vh'}}>
   {/* border:'2px solid' */}
        <div className='profile p-1 justify-center md:justify-start  flex
-       mb-2 mx-1'>
+       mb-2 mx-1 bg-black'>
 
 
 <ProfileNav/>
@@ -34,7 +34,16 @@ function ProfileTopCard() {
 <div className="bgTxt flex w-[94%] h-[70%] flex-col text-center justify-center" style={{color:'white', backgroundColor:'transparent', position:'absolute',
       padding: '30px',
     textAlign: 'center' } }>
-<span className='font-extrabold text-[2.5rem] md:text-[3rem]'>Welcome to the <br /> hub for <span className='p-0.5 rounded-lg text-orange-500' style={{boxShadow:'0 0 4px white'}}>3D</span> <br />Unreal World 🌎</span>
+<span className='font-extrabold text-[2.5rem] md:text-[3rem]'>Welcome to the <br /> hub for <span className='p-0.5 rounded-lg text-orange-500' style={{boxShadow:'0 0 4px white'}}>3D</span> <br />
+<div className=' w-fit m-auto flex'>
+  Unreal World 
+
+  <iframe src="https://giphy.com/embed/5YMDSfui21JLi" class="giphy-embed size-20 h-[60px]  p-0 " allowFullScreen ></iframe>
+
+  </div>
+
+
+</span>
 <br />
 <span className='text-[1.5rem] md:text-[2rem] '>
 <span className='p-0.5 rounded-lg mr-1 text-orange-500' style={{boxShadow:'0 0 4px white'}}>

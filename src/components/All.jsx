@@ -24,7 +24,7 @@ function All() {
   return (
     <div className="container  flex flex-col  w-full p-2  gap-4">
       {/* Item with left fade-in animation */}
-      
+         
       <Props/>
       <Materials/>
       <Environment/>
