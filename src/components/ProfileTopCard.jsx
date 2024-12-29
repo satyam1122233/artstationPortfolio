@@ -34,9 +34,9 @@ function ProfileTopCard() {
 <div className="bgTxt flex w-[94%] h-[70%] flex-col text-center justify-center" style={{color:'white', backgroundColor:'transparent', position:'absolute',
       padding: '30px',
     textAlign: 'center' } }>
-<span className='font-extrabold text-[2.5rem] md:text-[3.2rem]'>Welcome to the <br /> hub for <span className='p-0.5 rounded-lg text-orange-500' style={{boxShadow:'0 0 4px white'}}>3D</span> <br />Unreal World 🌎</span>
+<span className='font-extrabold text-[2.5rem] md:text-[3rem]'>Welcome to the <br /> hub for <span className='p-0.5 rounded-lg text-orange-500' style={{boxShadow:'0 0 4px white'}}>3D</span> <br />Unreal World 🌎</span>
 <br />
-<span className='text-[1.5rem] md:text-[2.2rem] '>
+<span className='text-[1.5rem] md:text-[2rem] '>
 <span className='p-0.5 rounded-lg mr-1 text-orange-500' style={{boxShadow:'0 0 4px white'}}>
  Unreal Engine </span>
 
