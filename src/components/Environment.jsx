@@ -57,7 +57,7 @@ function Environment() {
     
      {img:e6,txtHdng:"Render_1",txtDesc:""}
    ]}  
-    coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt=" Unreal" descriptionTxt="An intensive realtime environment" />
+    coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt="Hull" descriptionTxt="An intensive realtime environment" />
   </div>  
   
 
