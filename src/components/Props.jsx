@@ -42,13 +42,13 @@ function Props() {
         data-aos-mirror="true">
 
   <PropsImageComp coverPic={p1} imgTxtArr={[
-    {img:p2,txtHdng:"heading2",txtDesc:"Description2"},
-    {img:p3,txtHdng:"headingp3",txtDesc:"Description"},
-    {img:pp1,txtHdng:"headingpp1",txtDesc:"Description"},
-    {img:pp2,txtHdng:"headingpp2",txtDesc:"Description"},
-    {img:pp3,txtHdng:"headingpp3",txtDesc:"Description"}
+    {img:p2,txtHdng:"Render_1",txtDesc:""},
+    {img:p3,txtHdng:"Render_2",txtDesc:""},
+    {img:pp1,txtHdng:"Render_3",txtDesc:""},
+    {img:pp2,txtHdng:"Reference",txtDesc:""},
+    {img:pp3,txtHdng:"Wireframe",txtDesc:""}
   ]}  
-  path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+  path={'/img'} navigatePath={'/a'}  titleTxt="Unreal" descriptionTxt="An intensive realtime environment" />
 </div>
 
 

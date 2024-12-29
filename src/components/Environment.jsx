@@ -52,12 +52,12 @@ function Environment() {
         data-aos-offset="100"
         data-aos-mirror="true">
 
-            
+
  <PropsImageComp imgTxtArr={[
     
-     {img:e6,txtHdng:"headingpp3",txtDesc:"Description"}
+     {img:e6,txtHdng:"Render_1",txtDesc:""}
    ]}  
-    coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+    coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt=" Unreal" descriptionTxt="An intensive realtime environment" />
   </div>  
   
   {/* <div  className='item w-full m-auto'
@@ -72,7 +72,7 @@ function Environment() {
     
      {img:e1,txtHdng:"headingpp3",txtDesc:"Description"}
 
-   ]}   coverPic={e1} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+   ]}   coverPic={e1} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive realtime environment" />
   </div> */}
 
 
@@ -87,8 +87,8 @@ function Environment() {
 
  <PropsImageComp imgTxtArr={[
     
-     {img:e4,txtHdng:"headingpp3",txtDesc:"Description"}
-   ]}   coverPic={e4} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+     {img:e4,txtHdng:"Render_1",txtDesc:""}
+   ]}   coverPic={e4} path={'/img'} navigatePath={'/a'} titleTxt="Unreal" descriptionTxt="An intensive realtime environment" />
   </div>
  
  
@@ -104,9 +104,9 @@ function Environment() {
         data-aos-mirror="true">
  <PropsImageComp imgTxtArr={[
     
-     {img:e7,txtHdng:"headingpp3",txtDesc:"Description"}
+     {img:e7,txtHdng:"Render_1",txtDesc:""}
    ]}  
-   coverPic={e7} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+   coverPic={e7} path={'/img'} navigatePath={'/a'} titleTxt="Unreal" descriptionTxt="An intensive realtime environment" />
   </div>
  
  
@@ -118,9 +118,9 @@ function Environment() {
         data-aos-mirror="true">
  <PropsImageComp imgTxtArr={[
     
-     {img:e8,txtHdng:"headingpp3",txtDesc:"Description"}
+     {img:e8,txtHdng:"Render_1",txtDesc:""}
    ]}  
-    coverPic={e8} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+    coverPic={e8} path={'/img'} navigatePath={'/a'} titleTxt="Unreal " descriptionTxt="An intensive realtime environment" />
   </div>
  
  
@@ -132,9 +132,9 @@ function Environment() {
         data-aos-mirror="true">
  <PropsImageComp imgTxtArr={[
     
-     {img:e9,txtHdng:"headingpp3",txtDesc:"Description"}
+     {img:e9,txtHdng:"Render_1",txtDesc:""}
    ]}  
-    coverPic={e9} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+    coverPic={e9} path={'/img'} navigatePath={'/a'} titleTxt="Unreal " descriptionTxt="An intensive realtime environment" />
   </div>
  
  
@@ -146,8 +146,8 @@ function Environment() {
         data-aos-mirror="true">
  <PropsImageComp imgTxtArr={[
     
-     {img:e10,txtHdng:"headingpp3",txtDesc:"Description"}
-   ]}   coverPic={e10} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+     {img:e10,txtHdng:"Render_1",txtDesc:""}
+   ]}   coverPic={e10} path={'/img'} navigatePath={'/a'} titleTxt="Unreal" descriptionTxt="An intensive realtime environment" />
   </div>
  
  
@@ -159,8 +159,8 @@ function Environment() {
         data-aos-mirror="true">
  <PropsImageComp imgTxtArr={[
     
-     {img:e11,txtHdng:"headingpp3",txtDesc:"Description"}
-   ]}   coverPic={e11} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+     {img:e11,txtHdng:"Render_1",txtDesc:""}
+   ]}   coverPic={e11} path={'/img'} navigatePath={'/a'} titleTxt="Unreal" descriptionTxt="An intensive realtime environment" />
   </div>
  
  
@@ -172,9 +172,9 @@ function Environment() {
         data-aos-mirror="true">
  <PropsImageComp imgTxtArr={[
     
-     {img:e12,txtHdng:"headingpp3",txtDesc:"Description"}
+     {img:e12,txtHdng:"Render_1",txtDesc:""}
    ]}  
-    coverPic={e12} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+    coverPic={e12} path={'/img'} navigatePath={'/a'} titleTxt="Unreal" descriptionTxt="An intensive realtime environment" />
   </div>
  
  
@@ -186,9 +186,9 @@ function Environment() {
         data-aos-mirror="true">
  <PropsImageComp imgTxtArr={[
     
-     {img:e13,txtHdng:"headingpp3",txtDesc:"Description"}
+     {img:e13,txtHdng:"Render_1",txtDesc:""}
    ]}  
-    coverPic={e13} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+    coverPic={e13} path={'/img'} navigatePath={'/a'} titleTxt="Unreal " descriptionTxt="An intensive realtime environment" />
   </div>
  
   <div  className='item w-full m-auto'
@@ -199,9 +199,9 @@ function Environment() {
               data-aos-mirror="true">
  <PropsImageComp imgTxtArr={[
     
-     {img:e14,txtHdng:"headingpp3",txtDesc:"Description"}
+     {img:e14,txtHdng:"Render_1",txtDesc:""}
    ]}  
-    coverPic={e14} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work." />
+    coverPic={e14} path={'/img'} navigatePath={'/a'} titleTxt="Unreal" descriptionTxt="An intensive realtime environment" />
   </div>
 
 

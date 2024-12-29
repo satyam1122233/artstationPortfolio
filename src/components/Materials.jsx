@@ -38,14 +38,14 @@ function Materials() {
  <PropsImageComp 
  imgTxtArr={[
     
-     {img:m1,txtHdng:"headingpp3",txtDesc:"Description"},
-     {img:m2,txtHdng:"Render_1",txtDesc:""},
-     {img:m3,txtHdng:"Render_2",txtDesc:""},
-     {img:m4,txtHdng:"Render_3",txtDesc:""},
-     {img:m5,txtHdng:"Refrance",txtDesc:""},
-     {img:m6,txtHdng:"Wireframe",txtDesc:""}
+     {img:m1,txtHdng:"QR code",txtDesc:""},
+     {img:m2,txtHdng:"Maps",txtDesc:""},
+     {img:m3,txtHdng:"Render_1",txtDesc:""},
+     {img:m4,txtHdng:"Render_2",txtDesc:""},
+     {img:m5,txtHdng:"Substance Designer Screenshot",txtDesc:""},
+     {img:m6,txtHdng:"Render_3",txtDesc:""}
    ]}  
-    coverPic={m6} path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
+    coverPic={m6} path={'/img'} navigatePath={'/a'}  titleTxt="Unreal " descriptionTxt="An intensive realtime environment"/>
   </div>
 
 

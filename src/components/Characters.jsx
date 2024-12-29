@@ -59,28 +59,28 @@ function Characters() {
               <PropsImageComp
                 imgTxtArr={[
                    
-                    {img:c1,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c2,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c3,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c4,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c5,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c6,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c7,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c8,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c9,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c10,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c11,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c12,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c13,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c14,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c15,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c16,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c17,txtHdng:"headingpp3",txtDesc:"Description"},
-                    {img:c18,txtHdng:"headingpp3",txtDesc:"Description"},
+                    {img:c1,txtHdng:"Render_1",txtDesc:""},
+                    {img:c2,txtHdng:"Render_2",txtDesc:""},
+                    {img:c3,txtHdng:"Render_3",txtDesc:""},
+                    {img:c4,txtHdng:"Render_4",txtDesc:""},
+                    {img:c5,txtHdng:"Render_5",txtDesc:""},
+                    {img:c6,txtHdng:"Render_6",txtDesc:""},
+                    {img:c7,txtHdng:"Render_7",txtDesc:""},
+                    {img:c8,txtHdng:"Render_8",txtDesc:""},
+                    {img:c9,txtHdng:"Render_9",txtDesc:""},
+                    {img:c10,txtHdng:"Render_10",txtDesc:""},
+                    {img:c11,txtHdng:"Render_11",txtDesc:""},
+                    {img:c12,txtHdng:"Render_12",txtDesc:""},
+                    {img:c13,txtHdng:"Render_13",txtDesc:""},
+                    {img:c14,txtHdng:"Render_14",txtDesc:""},
+                    {img:c15,txtHdng:"Render_15",txtDesc:""},
+                    {img:c16,txtHdng:"Render_16",txtDesc:""},
+                    {img:c17,txtHdng:"Render_17",txtDesc:""},
+                    {img:c18,txtHdng:"Render_18",txtDesc:""},
                   ]}  
                 coverPic={item.coverPic}
                 path={item.path}
-                navigatePath={item.navigatePath}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."
+                navigatePath={item.navigatePath}  titleTxt="Unreal" descriptionTxt="An intensive realtime environment"
               />
             </div>
           );
