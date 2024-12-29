@@ -46,7 +46,7 @@ function Environment() {
 
         
   <div  className='item w-full m-auto'
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -60,25 +60,11 @@ function Environment() {
     coverPic={e6} path={'/img'} navigatePath={'/a'} titleTxt=" Unreal" descriptionTxt="An intensive realtime environment" />
   </div>  
   
-  {/* <div  className='item w-full m-auto'
-        data-aos="fade-right"
-        data-aos-delay="50"
-        data-aos-duration="800"
-        data-aos-offset="100"
-        data-aos-mirror="true"
-        
-        >
- <PropsImageComp imgTxtArr={[
-    
-     {img:e1,txtHdng:"headingpp3",txtDesc:"Description"}
-
-   ]}   coverPic={e1} path={'/img'} navigatePath={'/a'} titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive realtime environment" />
-  </div> */}
 
 
 
   <div  className='item w-full m-auto'
-        data-aos="fade-In"
+        data-aos="fade-in"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -97,7 +83,7 @@ function Environment() {
  
  
   <div  className='item w-full m-auto'
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -111,7 +97,7 @@ function Environment() {
  
  
   <div  className='item w-full m-auto'
-        data-aos="fade-In"
+        data-aos="fade-right"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -125,7 +111,7 @@ function Environment() {
  
  
   <div  className='item w-full m-auto'
-        data-aos="fade-left"
+        data-aos="fade-in"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -139,7 +125,7 @@ function Environment() {
  
  
   <div  className='item w-full m-auto'
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -152,7 +138,7 @@ function Environment() {
  
  
   <div  className='item w-full m-auto'
-        data-aos="fade-In"
+        data-aos="fade-right"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -165,7 +151,7 @@ function Environment() {
  
  
   <div  className='item w-full m-auto'
-        data-aos="fade-left"
+        data-aos="fade-in"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -179,7 +165,7 @@ function Environment() {
  
  
   <div  className='item w-full m-auto'
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-delay="50"
         data-aos-duration="800"
         data-aos-offset="100"
@@ -192,7 +178,7 @@ function Environment() {
   </div>
  
   <div  className='item w-full m-auto'
-        data-aos="fade-In"
+        data-aos="fade-right"
         data-aos-delay="50"
               data-aos-duration="800"
               data-aos-offset="100"
