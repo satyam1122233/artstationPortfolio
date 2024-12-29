@@ -52,7 +52,7 @@ function ProfileTopCard() {
 <span className='p-0.5 rounded-lg mr-1 text-orange-500' style={{boxShadow:'0 0 4px white'}}>
  Unreal Engine </span>
 
-to help you <br />materialise your ideas and take <br /> your creations to the next level!
+to help you <br />materialise your ideas and take your creations to the next level!
 </span>
 </div>
 
