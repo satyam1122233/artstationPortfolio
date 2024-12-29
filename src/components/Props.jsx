@@ -53,7 +53,7 @@ function Props() {
 
 
 
-<div className='item w-full m-auto'
+{/* <div className='item w-full m-auto'
         data-aos="fadeIn"
         data-aos-delay="50"
         data-aos-duration="800"
@@ -66,9 +66,9 @@ function Props() {
       {img:bPic,txtHdng:"headingpp3",txtDesc:"Description"}
     ]}  
      path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
-</div>
+</div> */}
 
-
+{/* 
   <div  className='item w-full m-auto'
         data-aos="fade-left"
         data-aos-delay="50"
@@ -82,7 +82,7 @@ function Props() {
      {img:cPic,txtHdng:"headingpp3",txtDesc:"Description"}
    ]}  
     path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
-  </div>
+  </div> */}
 
 
   </div>
