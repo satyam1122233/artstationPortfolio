@@ -29,7 +29,7 @@ function PropsImageView() {
             
           >
             
-            <div className='mainProDiv w-full  h-auto bg-black  flex flex-col md:flex-row md:justify-center'>
+            <div className='mainProDiv w-full  h-auto bg-black  flex flex-col md:flex-col md:justify-center'>
               {isVideo?(
 
 

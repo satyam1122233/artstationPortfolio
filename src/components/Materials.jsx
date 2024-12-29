@@ -1,8 +1,12 @@
 import React from 'react'
 
-import aPic from '../Images/a.jpg'
-import bPic from '../Images/b.jpg'
-import cPic from '../Images/c.jpg'
+import m1 from '../Images/m1.jpg'
+import m2 from '../Images/m2.jpg'
+import m3 from '../Images/m3.jpg'
+import m4 from '../Images/m4.jpg'
+import m5 from '../Images/m5.jpg'
+import m6 from '../Images/m6.jpg'
+
 import PropsImageComp from './PropsImageComp'
 import userPic from '../Images/userPic.png'
 
@@ -34,42 +38,17 @@ function Materials() {
  <PropsImageComp 
  imgTxtArr={[
     
-     {img:aPic,txtHdng:"headingpp3",txtDesc:"Description"}
+     {img:m1,txtHdng:"headingpp3",txtDesc:"Description"},
+     {img:m2,txtHdng:"Render_1",txtDesc:""},
+     {img:m3,txtHdng:"Render_2",txtDesc:""},
+     {img:m4,txtHdng:"Render_3",txtDesc:""},
+     {img:m5,txtHdng:"Refrance",txtDesc:""},
+     {img:m6,txtHdng:"Wireframe",txtDesc:""}
    ]}  
-    coverPic={aPic} path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
+    coverPic={m6} path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
   </div>
 
 
-<div className='item w-full m-auto'
-        data-aos="fadeIn"
-        data-aos-delay="50"
-        data-aos-duration="800"
-        data-aos-offset="100"
-        data-aos-mirror="true">
-
-  <PropsImageComp coverPic={bPic} 
-  imgTxtArr={[
-     
-      {img:bPic,txtHdng:"headingpp3",txtDesc:"Description"}
-    ]}  
-     path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
-</div>
-
-
-  <div  className='item w-full m-auto'
-        data-aos="fade-left"
-        data-aos-delay="50"
-        data-aos-duration="800"
-        data-aos-offset="100"
-        data-aos-mirror="true">
-
- <PropsImageComp coverPic={cPic} 
- imgTxtArr={[
-    
-     {img:cPic,txtHdng:"headingpp3",txtDesc:"Description"}
-   ]}  
-    path={'/img'} navigatePath={'/a'}  titleTxt="ZBrush end-to-end Creature Workshop " descriptionTxt="An intensive course to boost your skills and improve your creature design work."/>
-  </div>
 
   </div>
   )
