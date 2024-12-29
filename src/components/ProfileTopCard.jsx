@@ -1,6 +1,7 @@
 import React from 'react'
 import ProfileNav from './profileNav'
 import bgVideo from '../Images/e6.mp4'
+import ghostGif from '../Images/ghost.gif'
 
 
 function ProfileTopCard() {
@@ -38,8 +39,10 @@ function ProfileTopCard() {
 <div className=' w-fit m-auto flex'>
   Unreal World 
 
-  <iframe src="https://giphy.com/embed/5YMDSfui21JLi" class="giphy-embed size-20 h-[60px]  p-0 " allowFullScreen ></iframe>
 
+
+  <iframe src="https://giphy.com/embed/5YMDSfui21JLi" frameBorder="0" className="giphy-embed h-20 w-[8rem] ml-[-2rem]" allowFullScreen ></iframe>
+  
   </div>
 
 

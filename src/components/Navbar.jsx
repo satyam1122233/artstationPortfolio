@@ -73,7 +73,7 @@ function Navbar() {
         onClick={()=>handleCurrItem(item.id)}
         >{item.name}
         </ul>
-
+        
         )
     })}
 
