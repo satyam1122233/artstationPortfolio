@@ -36,12 +36,12 @@ function ProfileTopCard() {
       padding: '30px',
     textAlign: 'center' } }>
 <span className='font-extrabold text-[2.5rem] md:text-[3rem]'>Welcome to the <br /> hub for <span className='p-0.5 rounded-lg text-orange-500' style={{boxShadow:'0 0 4px white'}}>3D</span> <br />
-<div className=' w-fit m-auto flex'>
+<div className=' w-fit m-auto flex flex-col md:flex-row'>
   Unreal World 
 
 
 
-  <iframe src="https://giphy.com/embed/5YMDSfui21JLi" frameBorder="0" className="giphy-embed h-20 w-[8rem] ml-[-2rem]" allowFullScreen ></iframe>
+  <iframe style={{margin:'auto'}} src="https://giphy.com/embed/5YMDSfui21JLi" frameBorder="0" className="giphy-embed h-20 w-[8rem] ml-[-2rem] m-auto" allowFullScreen ></iframe>
   
   </div>
 
