@@ -98,9 +98,11 @@ function Props() {
         data-aos-mirror="true">
 
   <PropsImageComp coverPic={p1} imgTxtArr={[
-    {img:p2,txtHdng:"Render_1",txtDesc:""},
-    {img:p3,txtHdng:"Render_2",txtDesc:""},
-    {img:pp1,txtHdng:"Render_3",txtDesc:""},
+        {img:p1,txtHdng:"Render_1",txtDesc:""},
+
+    {img:p2,txtHdng:"Render_2",txtDesc:""},
+    {img:p3,txtHdng:"Render_3",txtDesc:""},
+    {img:pp1,txtHdng:"Render_4",txtDesc:""},
     {img:pp2,txtHdng:"Reference",txtDesc:""},
     {img:pp3,txtHdng:"Wireframe",txtDesc:""}
   ]}  
@@ -177,7 +179,9 @@ I want to give it a look like kids are used to play and draw on it.your comments
      {img:anTH12,txtHdng:"High poly",txtDesc:""},
      {img:anTH13,txtHdng:"High poly",txtDesc:""},
      {img:anTH14,txtHdng:"High poly",txtDesc:""},
-  
+     {img:anTL11,txtHdng:"High poly",txtDesc:""},
+
+
      {img:anTL1,txtHdng:"Low poly",txtDesc:""},
      {img:anTL2,txtHdng:"Low poly",txtDesc:""},
      {img:anTL3,txtHdng:"Low poly",txtDesc:""},
@@ -188,7 +192,6 @@ I want to give it a look like kids are used to play and draw on it.your comments
      {img:anTL8,txtHdng:"Low poly",txtDesc:""},
      {img:anTL9,txtHdng:"Low poly",txtDesc:""},
      {img:anTL10,txtHdng:"Low poly",txtDesc:""},
-     {img:anTL11,txtHdng:"Low poly",txtDesc:""},
 
      {img:anT2,txtHdng:"Refrance",txtDesc:""},
      {img:anT3,txtHdng:"UV Unwraping",txtDesc:""},

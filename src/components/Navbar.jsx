@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import profilePic from '../Images/images.jpeg'
+import profilePic from '../Images/images.jpg'
 import bgnav from '../Images/bgNav.png'
 import instaIcon from '../Images/instagram.png'
 import gmailIcon from '../Images/gmail.png'

@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import profilePic from '../Images/images.jpeg'
+import profilePic from '../Images/images.jpg'
 function ProfileNav() {
     
   return (
     <>
-       <div className='flex flex-col  md:flex-row gap-2 '>
+       <div style={{display:'flex',alignItems:'center'}} className='flex flex-col  md:flex-row gap-2'>
         <div className="imgDiv 
    w-[50px] h-[50px] overflow-hidden">
               <img src={profilePic} alt="" />
