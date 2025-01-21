@@ -24,7 +24,7 @@ import cats from '../Images/cats.mp4';
 function Characters() {
   const characterImgs = [
     
-    { img: [c4], coverPic: c4, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
+    { img: [cats], coverPic: cats, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
    
   ];
 
