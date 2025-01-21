@@ -18,27 +18,14 @@ import c15 from '../Images/c15.png';
 import c16 from '../Images/c16.png';
 import c17 from '../Images/c17.png';
 import c18 from '../Images/c18.png';
+import cats from '../Images/cats.mp4';
+
 
 function Characters() {
   const characterImgs = [
-    // { img: [c1], coverPic: c1, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    // { img: [c2], coverPic: c2, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    // { img: [c3], coverPic: c3, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
+    
     { img: [c4], coverPic: c4, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    // { img: [c5], coverPic: c5, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    // { img: [c6], coverPic: c6, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
-    // { img: [c7], coverPic: c7, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    // { img: [c8], coverPic: c8, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    // { img: [c9], coverPic: c9, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
-    // { img: [c10], coverPic: c10, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    // { img: [c11], coverPic: c11, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    // { img: [c12], coverPic: c12, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
-    // { img: [c13], coverPic: c13, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    // { img: [c14], coverPic: c14, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    // { img: [c15], coverPic: c15, path: '/img', navigatePath: '/a', dataAos: 'fade-left' },
-    // { img: [c16], coverPic: c16, path: '/img', navigatePath: '/a', dataAos: 'fade-right' },
-    // { img: [c17], coverPic: c17, path: '/img', navigatePath: '/a', dataAos: 'fadeIn' },
-    // { img: [c18], coverPic: c18, path: '/img', navigatePath: '/a', dataAos: 'fade-left' }
+   
   ];
 
   return (
@@ -58,7 +45,7 @@ function Characters() {
                        >
               <PropsImageComp
                 imgTxtArr={[
-                   
+                  {img:cats,txtHdng:"Mov_Render",txtDesc:""},
                     {img:c1,txtHdng:"Render_1",txtDesc:""},
                     {img:c2,txtHdng:"Render_2",txtDesc:""},
                     {img:c3,txtHdng:"Render_3",txtDesc:""},
@@ -78,7 +65,7 @@ function Characters() {
                     {img:c17,txtHdng:"Render_17",txtDesc:""},
                     {img:c18,txtHdng:"Render_18",txtDesc:""},
                   ]}  
-                coverPic={item.coverPic}
+                coverPic={item?.coverPic}
                 path={item.path}
                 navigatePath={item.navigatePath}  titleTxt="Unreal" descriptionTxt="An intensive realtime environment"
               />

@@ -1,0 +1,2 @@
+export const ABOUT_ME = "About me"
+export const ABOUT_ME_DESC = "Dedicated and detail oriented Unreal Artist with  Creative enthusiastic and professional 3d art with excellent grasp of latest modeling tools and problem solving skiils"
