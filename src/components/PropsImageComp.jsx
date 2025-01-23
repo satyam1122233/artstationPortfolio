@@ -10,7 +10,7 @@ function PropsImageComp(props) {
   const navigate = useNavigate();
 
   function handleClick() {
-    //navigate to inner image/video part
+    //navigate to inner image/video part i.e PropsImageView.jsx
     console.log(props.imgTxtArr);
 
     navigate(props.navigatePath, {

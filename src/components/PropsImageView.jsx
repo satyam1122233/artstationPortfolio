@@ -5,7 +5,9 @@ function PropsImageView() {
   const location = useLocation();
   const data = location.state;
 
-  console.log(data);
+  console.log("data: ",data);
+  console.log("data I: ",data[0]);
+  console.log("data Img: ",data[0].img);
 
 
 
@@ -18,7 +20,7 @@ function PropsImageView() {
 
     <div className=''>
       {data.map((item, index) => {
-
+console.log("item:",item.img)
          const isVideo = item.img.endsWith('.mp4')
 
         return (  // Explicit return statement here
@@ -57,7 +59,7 @@ function PropsImageView() {
 
                 <>
                     <img 
-                    className='w-auto h-auto md:h-[96vh] m-auto rounded-xl' src={item.img} alt=""                 style={{objectFit:'fill'}}
+                    className='w-auto h-auto md:h-[96vh] m-auto rounded-xl' src={item.img} alt=""           style={{objectFit:'fill'}}
                     />
 
                   <div className='p-[30px] ' style={{lineHeight:'1.6',display:'flex',flexDirection:'column',justifyContent:'center'}}>
@@ -69,6 +71,7 @@ function PropsImageView() {
               )}
             </div>
           </div>
+
         );
 
 
