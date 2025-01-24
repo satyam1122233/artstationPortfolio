@@ -99,7 +99,6 @@ function Props() {
 
   <PropsImageComp coverPic={p1} imgTxtArr={[
         {img:p1,txtHdng:"Render_1",txtDesc:""},
-
     {img:p2,txtHdng:"Render_2",txtDesc:""},
     {img:p3,txtHdng:"Render_3",txtDesc:""},
     {img:pp1,txtHdng:"Render_4",txtDesc:""},

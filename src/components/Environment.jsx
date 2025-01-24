@@ -35,6 +35,7 @@ import "./props.css";
 const environmentImgs = [
   {
     imgData: [
+      { img: e6, txtHdng: "Hull", txtDesc: "" },
       { img: hull_render1, txtHdng: "Render_1", txtDesc: "" },
       { img: hull_render2, txtHdng: "Render_2", txtDesc: "" },
       { img: hull_render3, txtHdng: "Render_3", txtDesc: "" },
