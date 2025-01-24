@@ -63,7 +63,7 @@ const environmentImgs = [
     titleTxt: "Unreal",
     descriptionTxt: "An intensive realtime environment",
     navigatePath: "/a",
-    dataAos: "fade-left",
+    dataAos: "fade-in",
   },
   {
     imgData: [{ img: e4, txtHdng: "Render_1", txtDesc: "" }],
@@ -72,7 +72,7 @@ const environmentImgs = [
     titleTxt: "Unreal",
     descriptionTxt: "An intensive realtime environment",
     navigatePath: "/a",
-    dataAos: "fade-in",
+    dataAos: "fade-left",
   },
   {
     imgData: [{ img: e7, txtHdng: "Render_1", txtDesc: "" }],
@@ -81,7 +81,7 @@ const environmentImgs = [
     titleTxt: "Unreal",
     descriptionTxt: "An intensive realtime environment",
     navigatePath: "/a",
-    dataAos: "fade-left",
+    dataAos: "fade-right",
   },
   {
     imgData: [{ img: e8, txtHdng: "Render_1", txtDesc: "" }],
@@ -90,7 +90,7 @@ const environmentImgs = [
     titleTxt: "Unreal",
     descriptionTxt: "An intensive realtime environment",
     navigatePath: "/a",
-    dataAos: "fade-right",
+    dataAos: "fade-in",
   },
   {
     imgData: [{ img: e9, txtHdng: "Render_1", txtDesc: "" }],
@@ -99,7 +99,7 @@ const environmentImgs = [
     titleTxt: "Unreal",
     descriptionTxt: "An intensive realtime environment",
     navigatePath: "/a",
-    dataAos: "fade-in",
+    dataAos: "fade-left",
   },
   
   {
