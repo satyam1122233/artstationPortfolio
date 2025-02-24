@@ -28,6 +28,10 @@ import hull_render7 from "../Images/hull_render7.png";
 import hull_render8 from "../Images/hull_render8.png";
 import hull_render9 from "../Images/hull_render9.png";
 
+import port_shipRender from "../Images/port_shipRender.jpg";
+import shipE from "../Images/shipE.jpg";
+
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./props.css";
@@ -66,8 +70,12 @@ const environmentImgs = [
     dataAos: "fade-in",
   },
   {
-    imgData: [{ img: e4, txtHdng: "Render_1", txtDesc: "" }],
-    coverPic: e4,
+    imgData: [
+      { img: e4, txtHdng: "Render_1", txtDesc: "" },
+      { img: port_shipRender, txtHdng: "Port", txtDesc: "" },
+      { img: shipE, txtHdng: "Ship", txtDesc: "" },
+    ],
+    coverPic: shipE,
     path: "/img",
     titleTxt: "Unreal",
     descriptionTxt: "An intensive realtime environment",
